@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  max-width: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* NAVBAR */
+nav {
+  height: 60px;
+  display: flex;  
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  justify-content: left;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 82px;
+  height: 25.35px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  padding: 1.2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img-div {
+  align-self: center;
+}
+
+.hero-img {
+  width: 395.91px;
+  height: 232px;
+}
+
+.hero-content h2 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  padding-block: 1rem;
+}
+
+.hero-content p {
+  height: 56px;
+  width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+
+}
+
+/* CARD SECTION */
+.card-section {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  margin-bottom: 2.25rem;
+  display: flex;
+  gap: 18px;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+
+  /* display: flex;
+  flex-direction: column;
+  flex: 0 0 auto; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  max-width: 176px;
+  position: relative;
+  
+}
+
+.card > img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card-group {
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.in-stock {
+  color: #222222;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: center;
+  line-height: 110%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 61px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 2px;
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+  justify-content: left;
+  align-items: center;
+  /* padding-top: 3px; */
+
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  border-radius: 0.5px;
+  padding: 1px;
+}
+
+.rate {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.figure {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918E9B;
+}
+
+.desc,
+.pricing {
+  color: #222222;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.pricing .bold{
+  font-weight: 600;
+}
